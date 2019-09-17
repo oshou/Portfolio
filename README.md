@@ -38,7 +38,7 @@
     - minikube
 
 - DB
-  - 概要: 投稿データ等保管用のDBコンテナ定義、初期投入データ等
+  - 概要: 投稿データ等保管用のDBコンテナ定義、DDL、初期投入データ等
   - DBMS: MySQL v5.7
   - 実行環境: Dockerコンテナ(debian-mysql5.7)
   - 開発環境: docker-compose
