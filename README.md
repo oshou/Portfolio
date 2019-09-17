@@ -102,22 +102,17 @@
 - ユーザー一覧
 ![ユーザー一覧](https://github.com/oshou/Portfolio/portfolio01/img/user_summary.png)
 
-- コメント一覧
-![コメント一覧](https://github.com/oshou/Portfolio/portfolio01/img/comment_summary.png)
-
-- 検索機能
-  - 投稿タイトル
+- 検索機能(投稿タイトル)
 ![検索機能(投稿タイトル)](https://github.com/oshou/Portfolio/portfolio01/img/search_post_title.png)
-  - タグ名
+
+- 検索機能(タグ名)
 ![検索機能(タグ名)](https://github.com/oshou/Portfolio/portfolio01/img/search_tag_name.png)
-  - ユーザー名
+
+- 検索機能(ユーザー名)
 ![検索機能(ユーザー名)](https://github.com/oshou/Portfolio/portfolio01/img/search_user_name.png)
 
-- GCP構成
-![GCP構成](https://github.com/oshou/Portfolio/portfolio01/img/search_user_name.png)
-
-- Mackerel監視
-![Mackerel監視画面](https://github.com/oshou/Portfolio/portfolio01/img/search_user_name.png)
+- GKE構成
+![GCP構成](https://github.com/oshou/Portfolio/portfolio01/img/gke_cluster.png)
 
 
 ### 今後対応予定
