@@ -92,6 +92,17 @@
     - フロント側の環境理解のため
       最近のモダンなF/Wの内、最も導入コストが低く、今後SSR等多目的に応用可能と思われるため採用
 
+### 今後対応予定
+- Auth0による認証基盤作成+ソーシャルログイン
+- タグ自動整理(表記ゆれ等への対応)
+- Youtube無効URL判定機能
+- ログ分析基盤の整備
+  - サイドカー形式でfluentdコンテナ立ててBigQueryに保管等
+- CircleCIによるpush時自動ビルド＆デプロイ
+- パフォーマンスチューニング
+  - クエリチューニング
+  - APIのGRPC対応等
+
 ## 画面イメージ
 - 投稿一覧
 ![投稿一覧](https://github.com/oshou/Portfolio/blob/master/img/post_summary.png)
@@ -116,15 +127,3 @@
 
 - GKE構成
 ![GCP構成](https://github.com/oshou/Portfolio/blob/master/img/gke_cluster.png)
-
-
-### 今後対応予定
-- Auth0による認証基盤作成+ソーシャルログイン
-- タグ自動整理(表記ゆれ等への対応)
-- Youtube無効URL判定機能
-- ログ分析基盤の整備
-  - サイドカー形式でfluentdコンテナ立ててBigQueryに保管等
-- CircleCIによるpush時自動ビルド＆デプロイ
-- パフォーマンスチューニング
-  - クエリチューニング
-  - APIのGRPC対応等
