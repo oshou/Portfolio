@@ -97,25 +97,25 @@
 ![投稿一覧](https://github.com/oshou/Portfolio/blob/master/img/post_summary.png)
 
 - タグ一覧
-![タグ一覧](https://github.com/oshou/Portfolio/blog/master/img/tag_summary.png)
+![タグ一覧](https://github.com/oshou/Portfolio/blob/master/img/tag_summary.png)
 
 - ユーザー一覧
-![ユーザー一覧](https://github.com/oshou/Portfolio/blog/master/img/user_summary.png)
+![ユーザー一覧](https://github.com/oshou/Portfolio/blob/master/img/user_summary.png)
 
 - 検索機能(投稿タイトル)
-![検索機能(投稿タイトル)](https://github.com/oshou/Portfolio/blog/master/img/search_post_title.png)
+![検索機能(投稿タイトル)](https://github.com/oshou/Portfolio/blob/master/img/search_post_title.png)
 
 - 検索機能(タグ名)
-![検索機能(タグ名)](https://github.com/oshou/Portfolio/blog/master/img/search_tag_name.png)
+![検索機能(タグ名)](https://github.com/oshou/Portfolio/blob/master/img/search_tag_name.png)
 
 - 検索機能(ユーザー名)
-![検索機能(ユーザー名)](https://github.com/oshou/Portfolio/blog/master/img/search_user_name.png)
+![検索機能(ユーザー名)](https://github.com/oshou/Portfolio/blob/master/img/search_user_name.png)
 
 - 新規投稿
-![新規投稿](https://github.com/oshou/Portfolio/blog/master/img/add_post.png)
+![新規投稿](https://github.com/oshou/Portfolio/blob/master/img/add_post.png)
 
 - GKE構成
-![GCP構成](https://github.com/oshou/Portfolio/blog/master/img/gke_cluster.png)
+![GCP構成](https://github.com/oshou/Portfolio/blob/master/img/gke_cluster.png)
 
 
 ### 今後対応予定
