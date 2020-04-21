@@ -55,7 +55,7 @@
   - 実行環境: Dockerコンテナ(scratch)
   - 開発環境: docker-compose
   - Linter: golangci-lint(lint,vet,unused...)
-  - 単体テスト: testing, gomock
+  - 単体テスト: testing, golang/mock(gomock, mockgen)
   - APIテスト: Postman
   - タスクランナー: Make
 
