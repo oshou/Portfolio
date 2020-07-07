@@ -48,16 +48,19 @@
   - アーキテクチャ: DDD(Onion-Architecture風)
   - 言語: Golang v1.11
   - DI: 自前Injector
-  - F/W: Gin
+  - Router: chi
   - ORM: sqlx
   - ライブラリ管理: Go Module
   - 環境変数管理: godotenv
   - 実行環境: Dockerコンテナ(scratch)
   - 開発環境: docker-compose
   - Linter: golangci-lint(lint,vet,unused...)
-  - 単体テスト: testing, golang/mock(gomock, mockgen)
+  - 単体テスト: testing, httptest, golang/mock(gomock, mockgen)
   - APIテスト: Postman
   - タスクランナー: Make
+  - コンテナイメージ管理: skaffold
+  - DBマイグレーション: sql-migrate
+  - CI/CD: CircleCI / GithubAction
 
 - フロントエンド
   - 概要: Nuxt.jsによるフロントエンドSPA
@@ -79,12 +82,12 @@
 ### 作成にあたり重視したポイント
 - インフラからフロントまで一気通貫で自前実装する
   - フロー理解のため
-- GolangでバックエンドAPIを実装する
+- GolangのバックエンドAPIを実装する
   - microserviceバックエンドでの利用機会が多いと思われるため
 - アーキテクチャ設計
   - 抽象依存で変化に強く、テストしやすい設計を検討する。
-    例) APIのデータストアをMySQL、Postgresそれぞれ替えた場合のパターンを実装
-  - Onion-Architectureを参考に保守しやすいレイヤー構成を検討する。
+    - 例) APIサーバのデータストアをMySQL / Postgres それぞれのパターンを実装
+  - Onion-Architectureを参考に保守しやすく変化に強いレイヤー構成を検討する。
 - 他課題感のある分野には未経験技術を積極的に採用する
   - GKE + k8s
     - コンテナ統合管理方法の把握のため
