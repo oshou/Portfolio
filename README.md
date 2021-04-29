@@ -26,7 +26,7 @@
 - バックエンドAPI
   - https://github.com/oshou/AwesomeMusic-api
 - フロントエンド
-  - https://github.com/oshou/AwesomeMusic-front
+  - https://github.com/oshou/AwesomeMusic-app
 
 ### 構成要素毎の概要
 - インフラ
